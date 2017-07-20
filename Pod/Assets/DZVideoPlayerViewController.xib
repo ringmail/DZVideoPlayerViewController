@@ -38,18 +38,18 @@
                     <rect key="frame" x="169" y="315" width="37" height="37"/>
                 </activityIndicatorView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OTK-4W-YjV" userLabel="topToolbarView">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                     <subviews>
                         <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bwp-Jg-zsY">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="jqS-dX-6RY">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </view>
                             <blurEffect style="light"/>
                         </visualEffectView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LWi-Wz-NQ7" customClass="DZProgressIndicatorSlider">
-                            <rect key="frame" x="41" y="11" width="231" height="22"/>
+                            <rect key="frame" x="41" y="19" width="231" height="22"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QUK-20-z3A" userLabel="Progress View" customClass="UIProgressView">
                                     <rect key="frame" x="0.0" y="11" width="231" height="1"/>
@@ -73,19 +73,19 @@
                             </connections>
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:05" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nci-GB-6YN" userLabel="Current Time Label">
-                            <rect key="frame" x="8" y="15" width="28" height="16"/>
+                            <rect key="frame" x="8" y="23" width="28" height="16"/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03:15" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YiH-9G-eQ4" userLabel="Remaining Time Label">
-                            <rect key="frame" x="280" y="15" width="34" height="16"/>
+                            <rect key="frame" x="280" y="23" width="34" height="16"/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbN-gd-qgw" customClass="DZPlayerButton">
-                            <rect key="frame" x="324" y="6" width="41" height="33"/>
+                            <rect key="frame" x="324" y="14" width="41" height="33"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <state key="normal" title="Done">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -114,7 +114,7 @@
                         <constraint firstItem="sbN-gd-qgw" firstAttribute="top" secondItem="OTK-4W-YjV" secondAttribute="top" constant="6" id="NDM-cC-V3H"/>
                         <constraint firstItem="YiH-9G-eQ4" firstAttribute="leading" secondItem="LWi-Wz-NQ7" secondAttribute="trailing" constant="8" id="Wyf-NX-ywc"/>
                         <constraint firstItem="bwp-Jg-zsY" firstAttribute="leading" secondItem="OTK-4W-YjV" secondAttribute="leading" id="YMf-Ge-4Ji"/>
-                        <constraint firstAttribute="height" constant="44" id="bXo-cZ-OqQ"/>
+                        <constraint firstAttribute="height" constant="60" id="bXo-cZ-OqQ"/>
                         <constraint firstItem="YiH-9G-eQ4" firstAttribute="baseline" secondItem="sbN-gd-qgw" secondAttribute="baseline" id="cTg-Fk-3Cv"/>
                         <constraint firstItem="YiH-9G-eQ4" firstAttribute="baseline" secondItem="nci-GB-6YN" secondAttribute="baseline" id="fr9-Uv-wWA"/>
                         <constraint firstItem="sbN-gd-qgw" firstAttribute="baseline" secondItem="nci-GB-6YN" secondAttribute="baseline" id="jUG-fq-plj"/>
